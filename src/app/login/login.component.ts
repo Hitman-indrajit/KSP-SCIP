@@ -33,7 +33,7 @@ export class LoginComponent implements OnInit {
         this.utilService.isLoggenIn = true;
         this.isLoggenIn = this.utilService.isLoggenIn;
         this.isWrongInput = false;
-        this.router.navigateByUrl('/purchase-order-line-item');
+        this.router.navigateByUrl('/dashboard/purchase-order-line-item');
       } else {
         this.isWrongInput = true;
         this.utilService.isLoggenIn = false;
