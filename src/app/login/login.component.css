@@ -98,6 +98,7 @@
   .login-container{
     width: 100%;
     float: left;
+    padding-top: 50px;
   }
 
   .button {

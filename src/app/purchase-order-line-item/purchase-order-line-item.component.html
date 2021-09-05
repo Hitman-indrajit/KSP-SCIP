@@ -44,18 +44,18 @@
                     </ul>
                   </div> -->
       
-                 <!-- <div class="dropdown">
+                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
                       aria-haspopup="true" aria-expanded="false" (click)="selectMaterial('','','')" >
                       <span *ngIf="el.isSelected == false" style="font-size:  0.875rem;">Material Category</span> <span *ngIf="el.isSelected == true">{{el.selectedCat}}</span>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenu2" >
-                      <!-- <button class="dropdown-item" type="button"  (click)="selectMaterial('materialCategory','','')">materialCategory</button> -->
+                      <!-- <button class="dropdown-item" type="button"  (click)="selectMaterial('materialCategory','','')">materialCategory</button>-->
       
-                      <!-- <button class="dropdown-item" type="button" *ngFor="let item of el.materialCategory;index as childIndex" (click)="selectMaterial(item,parentIndex,elements)"><span style="font-size:  0.875rem;">{{item}}</span></button>
+                      <button class="dropdown-item" type="button" *ngFor="let item of el.materialCategory;index as childIndex" (click)="selectMaterial(item,parentIndex,elements)"><span style="font-size:  0.875rem;">{{item}}</span></button>
       
                     </div>
-                  </div> -->
+                  </div>
                 </td>
                 <td>
                   <a><img [src]="iconPlusCircle" [alt]="iconPlusAlt" class="plus-class" /></a>
