@@ -1,18 +1,35 @@
 .container{
     width: 100%;
     float: left;
+    height: 100%;
+    position: absolute;
+    display: flex;
 }
 .left-panel{
     width: 64.5%;
     height: auto;
+    position: relative;
+    height: 100%;
 }
-.ksb-bg{width: 100%; float: left;}
+.ksb-bg{
+    /* The image used */
+  background-image: url("../../assets/images/MaskGroup2.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .ksb-bg img{width: 100%;;}
 .right-panel{
     width: 35%;
     float: left;
     padding: 5% 2% 2% 5%;
     box-sizing: border-box;
+    position: relative;
 }
 .ksblogo-bg{
     width: 100%;
