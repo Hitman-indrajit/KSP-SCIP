@@ -78,7 +78,7 @@
 
   .text-border-class{
     line-height: 32px;
-    padding: 0 8px;
+    padding: 3px 8px;
     width: 90%;
     font-size: 14px;
     border: 1px solid #adb5bd;
